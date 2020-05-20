@@ -19,4 +19,7 @@ public class Rectangulo {
         return lado1*lado2;
     }
     
+    public double obtenerPerimetro(){
+        return (lado1*2)+(lado2*2);
+    }
 }
